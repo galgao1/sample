@@ -10,8 +10,9 @@
             {{Form::textarea('body',$post->body,['id' => 'summary-ckeditor', 'class' => 'form-control', 'placeholder'=>'Body'])}}
         </div>
             {{Form::hidden('_method', 'PUT')}}
-            {{Form::submit('Submit',['class' => 'btn btn-primary text-center'])}}
-
+        <div class="text-center">
+            {{Form::submit('Submit',['class' => 'btn btn-success'])}}
+        </div>
     {!! Form::close() !!}
 
     <script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
