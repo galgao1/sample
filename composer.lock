@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "764a80462d88b77f4ae3b1a2c8e57758",
+    "content-hash": "cbde3863e48962ed4b2eb111e0f9de54",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3514,16 +3514,16 @@
         },
         {
             "name": "laravel/ui",
-            "version": "v1.2.0",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/ui.git",
-                "reference": "bb64fca681566ca94457d490a00f899516e75664"
+                "reference": "0287d4eee80aad718bdf7f90117cfe720c493064"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/ui/zipball/bb64fca681566ca94457d490a00f899516e75664",
-                "reference": "bb64fca681566ca94457d490a00f899516e75664",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/0287d4eee80aad718bdf7f90117cfe720c493064",
+                "reference": "0287d4eee80aad718bdf7f90117cfe720c493064",
                 "shasum": ""
             },
             "require": {
@@ -3538,6 +3538,9 @@
             },
             "type": "library",
             "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
                 "laravel": {
                     "providers": [
                         "Laravel\\Ui\\UiServiceProvider"
@@ -3564,7 +3567,7 @@
                 "laravel",
                 "ui"
             ],
-            "time": "2020-02-13T21:12:28+00:00"
+            "time": "2019-12-20T15:09:01+00:00"
         },
         {
             "name": "mockery/mockery",

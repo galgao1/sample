@@ -29,7 +29,3 @@ Route::resource('posts', 'PostsController');
 
 Route::post('ckeditor/image_upload', 'CKEditorController@upload')->name('upload');
 
-
-Auth::routes();
-
-Route::get('/', 'PagesController@index');
